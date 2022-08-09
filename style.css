@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 70%;
+}
+
+body{
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url(images/background_image.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+section[aria-label="nav-bar"] {
+  height: 13rem;
+}
+
+.logo {
+  margin-left: 5rem;
+  padding-top: 6rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 20rem;
+}
+
+.list {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  list-style-type: none;
+  gap: 8rem;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  border-bottom: #fff solid 3px;
+}
+
+.list-items {
+  cursor: pointer;
+}
+
+.logo h1 {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.phone {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.left-banner {
+  margin-top: 9rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.left-banner .headline {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 8rem;
+}
+
+.learn-more {
+  background-color: transparent;
+  color: #fff;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  font-size: 25px;
+  font-weight: 700;
+  border: #fff solid 3px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.right-banner {
+  float: right;
+}
+
+.box_1 {
+  position: relative;
+  right: 45rem;
+  bottom: 12rem;
+  background-color: rgb(182 179 179 / 25%);
+  padding: 3rem;
+}
+
+.light_bulb {
+  position: relative;
+  bottom: 2rem;
+  background-color: #fff;
+  padding: 3px 30px 3px 30px;
+  border-radius: 2rem;
+}
+
+.text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.linebulb {
+  background-color: #fff;
+  width: 6.8rem;
+  height: 1.3px;
+  position: relative;
+  left: 22rem;
+  bottom: 6.5rem;
+}
+
+.circle-bulb {
+  background-color: #fff;
+  border-radius: 4rem;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  left: 28.8rem;
+  bottom: 7.2rem;
+}
+
+.box_2 {
+  position: relative;
+  bottom: 53rem;
+  right: 10rem;
+  background-color: rgb(182 179 179 / 25%);
+  padding: 2.6rem;
+}
+
+.puzzle {
+  position: relative;
+  bottom: 2rem;
+  background-color: #fff;
+  padding: 3px 35px 3px 30px;
+  border-radius: 2rem;
+}
+
+.vl {
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 6.8rem;
+  width: 1px;
+  position: absolute;
+  top: 137px;
+  left: 130px;
+}
+
+.circle-puzzle {
+  width: 15px;
+  height: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 4rem;
+  position: absolute;
+  top: 199px;
+  left: 124px;
+}
