@@ -45,6 +45,7 @@ section[aria-label="nav-bar"] {
   padding-bottom: 3rem;
   list-style-type: none;
   gap: 8rem;
+  z-index: 10;
   color: #fff;
   font-size: 19px;
   font-weight: 600;
@@ -169,4 +170,116 @@ section[aria-label="nav-bar"] {
   position: absolute;
   top: 199px;
   left: 124px;
+}
+
+nav .icon-burger{
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.line{
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+
+@media only screen and (max-width: 500px){
+  .logo h1{
+    font-size: 19px;
+    position: relative;
+    right: 3rem;
+    bottom: 4rem;
+  }
+
+  .list{
+    visibility: hidden;
+  }
+
+  nav .icon-burger{
+    display: block;
+  }
+
+  .left-banner{
+    width: 100vw;
+    position: relative;
+    right: 10rem;
+    bottom: 12rem;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .left-banner .headline{
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .right-banner{
+    position: relative;
+    top: 33rem;
+  }
+
+  .line_bulb{
+    visibility: hidden;
+  }
+
+  .circle-bulb{
+    visibility: hidden;
+  }
+
+  .vl{
+    visibility: hidden;
+  }
+
+  .circle-puzzle{
+    visibility: hidden;
+  }
+
+  .right-banner{
+    height: 100vh;
+  }
+
+  .box_2{
+    width: 90vw;
+    position: relative;
+    left: -1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .button{
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .learn-more{
+    font-size: 17px;
+  }
+
+  .box_1{
+    bottom: 27rem;
+    left: -2rem;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+    text-align: center;
+    width: 90vw;
+  }
+
+  .light_bulb{
+    position: relative;
+    top: -1rem;
+  }
+
 }
